@@ -1,0 +1,17 @@
+
+question 1 : 
+Application native : installée sur un smartphone ou une tablette, elle est sur-mesure et doit être adaptée à chaque système d’exploitation (OS), en somme une version différente pour chaque type de téléphone.
+
+
+application web  : site internet mobile ,  créé pour être consulté à partir du navigateur internet d’un tout support (smartphone , tablette , pc , ...). La connexion web est indispensable.
+
+Application hybride : codée en langage web (HTML), elle est multi-plateforme mais offre moins de fonctionnalités et de performances.
+
+question 2 :
+
+3 frameworks de déveeloppement mobile hybride : 
+ionic 
+framework 7
+cordova 
+sencha touch
+onsen ui
