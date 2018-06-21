@@ -1,0 +1,58 @@
+question 2 
+l'objectif de l'application web utilisant une telle base de données est de 
+gérer les échanges culturels  entre adolescents pour apprendre une langue étrangère et vivre une autre culture
+
+question 3
+
+create table famille (
+id_famille number(6) primary key auto_increment,
+nom_famille char(25), 
+prenom_pere char(25),
+premom_mere char(25),
+ville char(20),
+pays char(25),
+type_voie char(10),
+num_voie integer ,
+nom_voie  char(35), 
+code_postal char(5),
+region_ou_etat char(20),
+tel char(12)
+)
+
+question 4 
+
+select * from famille 
+order by pays , ville
+
+question 5 :
+
+select f.ville, count(*) from adolescent a , famille f 
+where a.id_famille = f.id_famille 
+
+groupe by f.ville
+
+question 6 :
+
+select * from adolescent where year(date_naiss) = 2001
+
+question 7 : 
+insert into adolescent (prenom,date_naiss, id_famille, nomsport, sexe, niveau_scolaire, remarque , niveau )
+values ('ali','2000-01-01',1,'football','homme','bac + 3','gentil','assez bien')
+
+question 8 
+select a.* from adolescent a , famille f , parler p , langues l
+
+where a.id_famille=f.id_famille and a.id_jeune = p.id_jeune and p.id_langues=l.id_langues and a.sexe= 'femme' and and l.libelle_langue='français' and  f.ville='paris' 
+question 9 :
+ dans les bases de données relationnelles, l´intégrité référentielle est une situation dans laquelle pour chaque information d'une table A qui fait référence à une information d'une table B, l'information référencée existe dans la table B.
+
+
+ exemple : 
+la table adolescent faire référence à la table adolescent et l'information référencé est id_jeune 
+ ou 
+adolescent est relié à une famille 
+
+question 10 : 
+
+Une transaction est une suite de  commande SQL  (insert, update , delete )  en une seul opération tout ou rien .
+
