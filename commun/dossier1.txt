@@ -15,3 +15,20 @@ framework 7
 cordova 
 sencha touch
 onsen ui
+
+...
+
+dossier 3 
+question 2 :
+
+ce code permet d'envoyer au serveur et  d'une manière asynchrone (ajax)  ,  les données du formulaire en format JSON ensuite appelle les méthodes callback success (en cas de succès ) ) ou failure  en cas d'erreur
+
+le nom de la fonction 1 :
+
+ajouterStock,
+
+send
+, 
+envoyer ,
+push,
+...
